@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>681706232083-nti2ndd284vvgq2h0e07oq0sagceqttc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.681706232083-nti2ndd284vvgq2h0e07oq0sagceqttc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCtRObtrWxBm8Pr0_KV9l2byIzbLP1iFIY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>681706232083</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ISLAMICAHLULBAYT.iabat</string>
+	<key>PROJECT_ID</key>
+	<string>iabatncusa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>iabatncusa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:681706232083:ios:cc4707dff40008b1</string>
+	<key>DATABASE_URL</key>
+	<string>https://iabatncusa.firebaseio.com</string>
+</dict>
+</plist>
