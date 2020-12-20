@@ -1,0 +1,6 @@
+framework module QuranSDK {
+  umbrella header "QuranSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

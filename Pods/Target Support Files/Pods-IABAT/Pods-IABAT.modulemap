@@ -1,0 +1,6 @@
+framework module Pods_IABAT {
+  umbrella header "Pods-IABAT-umbrella.h"
+
+  export *
+  module * { export * }
+}

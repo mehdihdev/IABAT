@@ -19,23 +19,20 @@
 		3B1F821D22CD2DD00059C5C0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1F821C22CD2DD00059C5C0 /* RegisterViewController.swift */; };
 		3B39D9F822D57B7900AEAA5E /* PrayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B39D9F722D57B7900AEAA5E /* PrayersViewController.swift */; };
 		3BAD748022DF79F200272175 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD747F22DF79F200272175 /* ContactUsViewController.swift */; };
-		3BD307CD22CEAE8B00EF863D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BD307CC22CEAE8B00EF863D /* GoogleService-Info.plist */; };
 		3BD307CF22CEB63A00EF863D /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD307CE22CEB63A00EF863D /* ErrorViewController.swift */; };
 		3BE97C4722D3B18E00DF22D5 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE97C4622D3B18E00DF22D5 /* EventsTableViewController.swift */; };
 		3BE97C4B22D3C5F400DF22D5 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE97C4A22D3C5F400DF22D5 /* OverviewViewController.swift */; };
 		3BFDA12922C7D1F1003D0857 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFDA12822C7D1F1003D0857 /* SignInViewController.swift */; };
-		4937446F22FC8A07000C2EFA /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4937446E22FC8A07000C2EFA /* RegViewController.swift */; };
+		4911044123428D2300802BC9 /* QiblaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911044023428D2300802BC9 /* QiblaViewController.swift */; };
+		4914F807245E53EA002748D5 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914F806245E53EA002748D5 /* NewViewController.swift */; };
+		4914F80E245E5C1B002748D5 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914F80D245E5C1B002748D5 /* CustomCell.swift */; };
 		499ACC3623330D8E00896A24 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499ACC3523330D8E00896A24 /* HomeModel.swift */; };
 		499ACC3823330D9800896A24 /* EventsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499ACC3723330D9800896A24 /* EventsModel.swift */; };
-		49ABEDB82329B91500E3F719 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49ABEDB72329B91500E3F719 /* Raleway-Light.ttf */; };
-		49ABEDB92329B91500E3F719 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49ABEDB72329B91500E3F719 /* Raleway-Light.ttf */; };
-		49ABEDBA2329B91500E3F719 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49ABEDB72329B91500E3F719 /* Raleway-Light.ttf */; };
-		49ABEDBC2329B94900E3F719 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49ABEDBB2329B94900E3F719 /* Poppins-Medium.ttf */; };
-		49ABEDBD2329B94900E3F719 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49ABEDBB2329B94900E3F719 /* Poppins-Medium.ttf */; };
-		49ABEDBE2329B94900E3F719 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49ABEDBB2329B94900E3F719 /* Poppins-Medium.ttf */; };
-		49ABEDC4232D5E0200E3F719 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49ABEDC3232D5CB900E3F719 /* Montserrat-Bold.ttf */; };
 		49ABEDC6232D85CB00E3F719 /* EventsDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ABEDC5232D85CB00E3F719 /* EventsDataTableViewController.swift */; };
 		49ABEDCA232D892600E3F719 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ABEDC9232D892600E3F719 /* DetailViewController.swift */; };
+		49B8AA742441049E008B2330 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8AA732441049E008B2330 /* ServicesViewController.swift */; };
+		49B8AA7624413292008B2330 /* MonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8AA7524413291008B2330 /* MonthViewController.swift */; };
+		49CD18DA24538CFF002663F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49CD18D924538CFF002663F1 /* GoogleService-Info.plist */; };
 		49CE514C22FE5DB900E05A95 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE514B22FE5DB900E05A95 /* HomeViewController.swift */; };
 		49DE340223341E34008A4107 /* PrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DE340123341E34008A4107 /* PrayerViewController.swift */; };
 		6C3EFB06F4E6C5FA256F6D0B /* Pods_IABAT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B0D094785E3ACCC2C60471 /* Pods_IABAT.framework */; };
@@ -82,20 +79,24 @@
 		3B1F821C22CD2DD00059C5C0 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3B39D9F722D57B7900AEAA5E /* PrayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayersViewController.swift; sourceTree = "<group>"; };
 		3BAD747F22DF79F200272175 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
-		3BD307CC22CEAE8B00EF863D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3BD307CE22CEB63A00EF863D /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
 		3BE97C4622D3B18E00DF22D5 /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
 		3BE97C4A22D3C5F400DF22D5 /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		3BFDA12822C7D1F1003D0857 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		3FADCD03BA13EFA4C3F8FC37 /* Pods-IABATUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IABATUITests.debug.xcconfig"; path = "Target Support Files/Pods-IABATUITests/Pods-IABATUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4937446E22FC8A07000C2EFA /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegViewController.swift; path = "IABAT/New View Controllers/RegViewController.swift"; sourceTree = SOURCE_ROOT; };
+		490ADE86242F6B9B0069C078 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../../../../../Assets/Fonts/Montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		490ADE87242F6BDF0069C078 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../../../../../Assets/Fonts/Poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		490ADE88242F6C0C0069C078 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Light.ttf"; path = "../../../../../Assets/Fonts/Raleway/Raleway-Light.ttf"; sourceTree = "<group>"; };
+		4911044023428D2300802BC9 /* QiblaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaViewController.swift; sourceTree = "<group>"; };
+		4914F806245E53EA002748D5 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		4914F80D245E5C1B002748D5 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		499ACC3523330D8E00896A24 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		499ACC3723330D9800896A24 /* EventsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsModel.swift; sourceTree = "<group>"; };
-		49ABEDB72329B91500E3F719 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Light.ttf"; path = "../../../../../Downloads/Raleway/Raleway-Light.ttf"; sourceTree = "<group>"; };
-		49ABEDBB2329B94900E3F719 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../../../../../Downloads/Poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		49ABEDC3232D5CB900E3F719 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../../../../../Downloads/Montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		49ABEDC5232D85CB00E3F719 /* EventsDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDataTableViewController.swift; sourceTree = "<group>"; };
 		49ABEDC9232D892600E3F719 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		49B8AA732441049E008B2330 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		49B8AA7524413291008B2330 /* MonthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthViewController.swift; sourceTree = "<group>"; };
+		49CD18D924538CFF002663F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		49CE514B22FE5DB900E05A95 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		49DE340123341E34008A4107 /* PrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
 		50095A4C780F6C913F289504 /* Pods-IABATTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IABATTests.debug.xcconfig"; path = "Target Support Files/Pods-IABATTests/Pods-IABATTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -163,14 +164,15 @@
 				3B00165E22C579A200A52D89 /* AppDelegate.swift */,
 				3B0018BB22C6698000A95B69 /* UIExtensionView.extension.swift */,
 				3B00166222C579A200A52D89 /* Main.storyboard */,
-				4937446D22FC89C1000C2EFA /* New View Controllers */,
+				4914F80C245E5C00002748D5 /* Version 3.0 Controllers */,
 				3B6AE44D22D0290F00192FD3 /* Models */,
-				3BFDA12722C7D15B003D0857 /* View Controllers */,
+				4937446D22FC89C1000C2EFA /* Version 2.0 Controllers */,
+				3BFDA12722C7D15B003D0857 /* Version 1.0 Controllers */,
 				3B00166522C579A600A52D89 /* Assets.xcassets */,
 				49ABEDB62329B89700E3F719 /* Fonts */,
 				3B00166722C579A600A52D89 /* LaunchScreen.storyboard */,
+				49CD18D924538CFF002663F1 /* GoogleService-Info.plist */,
 				3B00166A22C579A600A52D89 /* Info.plist */,
-				3BD307CC22CEAE8B00EF863D /* GoogleService-Info.plist */,
 			);
 			path = IABAT;
 			sourceTree = "<group>";
@@ -196,11 +198,13 @@
 		3B6AE44D22D0290F00192FD3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				499ACC3723330D9800896A24 /* EventsModel.swift */,
+				499ACC3523330D8E00896A24 /* HomeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		3BFDA12722C7D15B003D0857 /* View Controllers */ = {
+		3BFDA12722C7D15B003D0857 /* Version 1.0 Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				3B00166022C579A200A52D89 /* ViewController.swift */,
@@ -213,29 +217,39 @@
 				3BD307CE22CEB63A00EF863D /* ErrorViewController.swift */,
 				3BAD747F22DF79F200272175 /* ContactUsViewController.swift */,
 			);
-			path = "View Controllers";
+			path = "Version 1.0 Controllers";
 			sourceTree = "<group>";
 		};
-		4937446D22FC89C1000C2EFA /* New View Controllers */ = {
+		4914F80C245E5C00002748D5 /* Version 3.0 Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4914F806245E53EA002748D5 /* NewViewController.swift */,
+				4914F80D245E5C1B002748D5 /* CustomCell.swift */,
+			);
+			name = "Version 3.0 Controllers";
+			path = "../Version 3.0 Controllers";
+			sourceTree = "<group>";
+		};
+		4937446D22FC89C1000C2EFA /* Version 2.0 Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				49ABEDC9232D892600E3F719 /* DetailViewController.swift */,
+				49B8AA732441049E008B2330 /* ServicesViewController.swift */,
 				49ABEDC5232D85CB00E3F719 /* EventsDataTableViewController.swift */,
-				499ACC3523330D8E00896A24 /* HomeModel.swift */,
 				49DE340123341E34008A4107 /* PrayerViewController.swift */,
-				499ACC3723330D9800896A24 /* EventsModel.swift */,
-				4937446E22FC8A07000C2EFA /* RegViewController.swift */,
+				4911044023428D2300802BC9 /* QiblaViewController.swift */,
 				49CE514B22FE5DB900E05A95 /* HomeViewController.swift */,
+				49B8AA7524413291008B2330 /* MonthViewController.swift */,
 			);
-			path = "New View Controllers";
+			path = "Version 2.0 Controllers";
 			sourceTree = "<group>";
 		};
 		49ABEDB62329B89700E3F719 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				49ABEDC3232D5CB900E3F719 /* Montserrat-Bold.ttf */,
-				49ABEDBB2329B94900E3F719 /* Poppins-Medium.ttf */,
-				49ABEDB72329B91500E3F719 /* Raleway-Light.ttf */,
+				490ADE86242F6B9B0069C078 /* Montserrat-Bold.ttf */,
+				490ADE87242F6BDF0069C078 /* Poppins-Medium.ttf */,
+				490ADE88242F6C0C0069C078 /* Raleway-Light.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -376,11 +390,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49ABEDC4232D5E0200E3F719 /* Montserrat-Bold.ttf in Resources */,
 				3B00166922C579A600A52D89 /* LaunchScreen.storyboard in Resources */,
-				49ABEDB82329B91500E3F719 /* Raleway-Light.ttf in Resources */,
-				3BD307CD22CEAE8B00EF863D /* GoogleService-Info.plist in Resources */,
-				49ABEDBC2329B94900E3F719 /* Poppins-Medium.ttf in Resources */,
+				49CD18DA24538CFF002663F1 /* GoogleService-Info.plist in Resources */,
 				3B00166622C579A600A52D89 /* Assets.xcassets in Resources */,
 				3B00166422C579A200A52D89 /* Main.storyboard in Resources */,
 			);
@@ -390,8 +401,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49ABEDB92329B91500E3F719 /* Raleway-Light.ttf in Resources */,
-				49ABEDBD2329B94900E3F719 /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,8 +408,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49ABEDBA2329B91500E3F719 /* Raleway-Light.ttf in Resources */,
-				49ABEDBE2329B94900E3F719 /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,23 +504,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4914F80E245E5C1B002748D5 /* CustomCell.swift in Sources */,
+				4911044123428D2300802BC9 /* QiblaViewController.swift in Sources */,
 				3BFDA12922C7D1F1003D0857 /* SignInViewController.swift in Sources */,
 				3BD307CF22CEB63A00EF863D /* ErrorViewController.swift in Sources */,
 				49ABEDC6232D85CB00E3F719 /* EventsDataTableViewController.swift in Sources */,
 				499ACC3823330D9800896A24 /* EventsModel.swift in Sources */,
+				4914F807245E53EA002748D5 /* NewViewController.swift in Sources */,
 				3B1F821D22CD2DD00059C5C0 /* RegisterViewController.swift in Sources */,
 				3B39D9F822D57B7900AEAA5E /* PrayersViewController.swift in Sources */,
 				3B00166122C579A200A52D89 /* ViewController.swift in Sources */,
 				3B0BC5B622DA3507004AA2EC /* ProfileViewController.swift in Sources */,
 				3B00165F22C579A200A52D89 /* AppDelegate.swift in Sources */,
 				499ACC3623330D8E00896A24 /* HomeModel.swift in Sources */,
-				4937446F22FC8A07000C2EFA /* RegViewController.swift in Sources */,
 				3BE97C4B22D3C5F400DF22D5 /* OverviewViewController.swift in Sources */,
 				3B0018BC22C6698000A95B69 /* UIExtensionView.extension.swift in Sources */,
+				49B8AA7624413292008B2330 /* MonthViewController.swift in Sources */,
 				3BE97C4722D3B18E00DF22D5 /* EventsTableViewController.swift in Sources */,
 				49ABEDCA232D892600E3F719 /* DetailViewController.swift in Sources */,
 				49DE340223341E34008A4107 /* PrayerViewController.swift in Sources */,
 				49CE514C22FE5DB900E05A95 /* HomeViewController.swift in Sources */,
+				49B8AA742441049E008B2330 /* ServicesViewController.swift in Sources */,
 				3BAD748022DF79F200272175 /* ContactUsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -691,7 +702,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = IABAT/IABAT.entitlements;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X4MH4CHK56;
 				INFOPLIST_FILE = IABAT/Info.plist;
@@ -700,10 +712,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ISLAMICAHLULBAYT.iabat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Mehdi’s Developer Provisioning Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -715,7 +727,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = IABAT/IABAT.entitlements;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X4MH4CHK56;
 				INFOPLIST_FILE = IABAT/Info.plist;
@@ -724,10 +737,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ISLAMICAHLULBAYT.iabat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Mehdi’s Developer Provisioning Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
