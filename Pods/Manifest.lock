@@ -71,6 +71,9 @@ PODS:
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - QuranSDK (1.0.2)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
 
 DEPENDENCIES:
   - Adhan
@@ -81,6 +84,7 @@ DEPENDENCIES:
   - Firebase/Core
   - lottie-ios
   - QuranSDK (~> 1.0.2)
+  - SDWebImage (~> 4.0)
 
 SPEC REPOS:
   trunk:
@@ -99,6 +103,7 @@ SPEC REPOS:
     - lottie-ios
     - nanopb
     - QuranSDK
+    - SDWebImage
 
 SPEC CHECKSUMS:
   Adhan: 3484020e8b2e7ca6f9f27317307416611ce7d848
@@ -116,7 +121,8 @@ SPEC CHECKSUMS:
   lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   QuranSDK: c6f1478583394f68a182329b2a1219b894bdf6ee
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
 
-PODFILE CHECKSUM: 440abcac045641c867d960ecdab71f59c1f4a7fd
+PODFILE CHECKSUM: 189ae63f0fb6e5262f00f14854a910203a7828c6
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.0

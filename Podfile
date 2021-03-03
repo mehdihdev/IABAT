@@ -14,6 +14,7 @@ target 'IABAT' do
   pod 'Firebase/AdMob'
   pod 'lottie-ios'
   pod 'QuranSDK', '~> 1.0.2'
+  pod 'SDWebImage', '~> 4.0'
 
   target 'IABATTests' do
     inherit! :search_paths

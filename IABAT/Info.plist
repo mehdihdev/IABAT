@@ -40,6 +40,9 @@
 		<string>Montserrat-Bold</string>
 		<string>Poppins-Medium</string>
 		<string>Raleway-Light</string>
+		<string>DMSans-Bold</string>
+		<string>DMSans-Medium</string>
+		<string>DMSans-Regular</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

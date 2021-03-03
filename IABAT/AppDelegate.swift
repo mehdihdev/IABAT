@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 import Adhan
-import CoreLocation
+//import CoreLocation
 import UserNotifications
 
 @UIApplicationMain
@@ -20,9 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
         let center = UNUserNotificationCenter.current()
-        let locationManager = CLLocationManager()
-        GADMobileAds.sharedInstance().start(completionHandler: nil)
-        locationManager.requestAlwaysAuthorization()
+        //let locationManager = CLLocationManager()
+        //GADMobileAds.sharedInstance().start(completionHandler: nil)
+        //locationManager.requestAlwaysAuthorization()
         return true
     }
 

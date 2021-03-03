@@ -38,7 +38,6 @@ class HomeViewController: UIViewController, GADBannerViewDelegate, CLLocationMan
     override func viewDidLoad() {
         
         let dateFor = DateFormatter()
-
         let hijriCalendar = Calendar.init(identifier: Calendar.Identifier.islamicCivil)
         dateFor.locale = Locale.init(identifier: "en")
         dateFor.calendar = hijriCalendar
