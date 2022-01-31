@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h9N-lk-0NH">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h9N-lk-0NH">
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -161,54 +162,214 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Day Frame" translatesAutoresizingMaskIntoConstraints="NO" id="gMh-sv-FQJ">
-                                <rect key="frame" x="16" y="144" width="358" height="161"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IABAT_SQUARE" translatesAutoresizingMaskIntoConstraints="NO" id="LuW-Jk-LUf">
+                                <rect key="frame" x="16" y="44" width="87" height="87"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="87" id="bw6-qE-yB1"/>
+                                    <constraint firstAttribute="height" constant="87" id="dK2-Tx-Fjq"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jumada ll 29th, 1442 AH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJP-cE-4ek">
-                                <rect key="frame" x="38" y="158" width="194" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="15"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="highlightedColor" systemColor="systemBackgroundColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fajr Prayers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPL-AE-mSp">
-                                <rect key="frame" x="38" y="249" width="159" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="15"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="highlightedColor" systemColor="systemBackgroundColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Next Prayer:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYy-Yd-WRQ">
-                                <rect key="frame" x="38" y="186" width="86" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="15"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="highlightedColor" systemColor="systemBackgroundColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5:47 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUs-7B-2xL">
-                                <rect key="frame" x="38" y="206" width="149" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="DMSans-Bold" family="DM Sans" pointSize="35"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="highlightedColor" systemColor="systemBackgroundColor"/>
-                            </label>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gHZ-7g-JZu">
-                                <rect key="frame" x="23" y="501" width="341" height="272"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kfE-XE-HTm" userLabel="Prayer View">
+                                <rect key="frame" x="30" y="139" width="330" height="145"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Day Frame" translatesAutoresizingMaskIntoConstraints="NO" id="gMh-sv-FQJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="330" height="145"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="145" id="3wf-9E-dUM"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="lid-K9-NKS" userLabel="Top Screen Stack View">
+                                        <rect key="frame" x="17" y="14.000000000000007" width="169" height="116.66666666666669"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jumada ll 29th, 1442 AH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJP-cE-4ek">
+                                                <rect key="frame" x="0.0" y="0.0" width="168" height="19.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" systemColor="systemBackgroundColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next Prayer:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYy-Yd-WRQ">
+                                                <rect key="frame" x="0.0" y="23.666666666666657" width="85.666666666666671" height="19.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" systemColor="systemBackgroundColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5:47 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUs-7B-2xL">
+                                                <rect key="frame" x="0.0" y="47.333333333333343" width="135.33333333333334" height="45.666666666666657"/>
+                                                <fontDescription key="fontDescription" name="DMSans-Bold" family="DM Sans" pointSize="35"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" systemColor="systemBackgroundColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fajr Prayers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPL-AE-mSp">
+                                                <rect key="frame" x="0.0" y="97" width="82.333333333333329" height="19.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" systemColor="systemBackgroundColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="lid-K9-NKS" secondAttribute="height" multiplier="42:29" id="P9g-nx-Pai"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="lid-K9-NKS" firstAttribute="leading" secondItem="kfE-XE-HTm" secondAttribute="leading" constant="17" id="2na-qc-aEe"/>
+                                    <constraint firstAttribute="trailing" secondItem="gMh-sv-FQJ" secondAttribute="trailing" id="I8s-dp-OPe"/>
+                                    <constraint firstItem="gMh-sv-FQJ" firstAttribute="top" secondItem="kfE-XE-HTm" secondAttribute="top" id="SoX-VB-xrc"/>
+                                    <constraint firstAttribute="bottom" secondItem="gMh-sv-FQJ" secondAttribute="bottom" id="X2h-3Q-Pri"/>
+                                    <constraint firstAttribute="width" secondItem="kfE-XE-HTm" secondAttribute="height" multiplier="66:29" id="eOG-Xb-em5"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="145" id="ghh-Zu-Ras"/>
+                                    <constraint firstItem="gMh-sv-FQJ" firstAttribute="leading" secondItem="kfE-XE-HTm" secondAttribute="leading" id="h8X-aD-cJP"/>
+                                    <constraint firstItem="lid-K9-NKS" firstAttribute="top" secondItem="kfE-XE-HTm" secondAttribute="top" constant="14" id="zzt-x3-6hh"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pe0-kH-hzT">
+                                <rect key="frame" x="235" y="70" width="139" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="17"/>
+                                <state key="normal" title="Join Meeting">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="joinGoogleMeetAction:" destination="h9N-lk-0NH" eventType="touchUpInside" id="vha-Zc-Wa4"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="firstBaseline" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="GSr-Wx-tcb">
+                                <rect key="frame" x="28" y="302" width="334" height="93"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YP8-xp-W5E" userLabel="Quran">
+                                        <rect key="frame" x="0.0" y="0.0" width="78" height="93"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ea-og-1wr">
+                                                <rect key="frame" x="-2" y="0.0" width="80" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="Quran"/>
+                                                <connections>
+                                                    <action selector="quranAction:" destination="h9N-lk-0NH" eventType="touchUpInside" id="grp-Ed-LTB"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quran" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9jw-zd-9Hp">
+                                                <rect key="frame" x="6" y="73" width="63" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="78" id="RI5-U1-diI"/>
+                                            <constraint firstAttribute="height" constant="93" id="XmH-3u-ITw"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="18u-lb-EhZ" userLabel="Prayer Times">
+                                        <rect key="frame" x="85.333333333333329" y="0.0" width="77.999999999999986" height="93"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Times" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OQp-9b-YLd">
+                                                <rect key="frame" x="-8" y="73" width="95" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYy-r3-Aw9">
+                                                <rect key="frame" x="-1" y="0.0" width="80" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="Image"/>
+                                                <connections>
+                                                    <action selector="prayeraction:" destination="h9N-lk-0NH" eventType="touchUpInside" id="vLY-RN-9Yb"/>
+                                                    <segue destination="FPd-WB-LZp" kind="show" id="Bfq-yy-hgP"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="78" id="6rm-jY-vEU"/>
+                                            <constraint firstAttribute="height" constant="93" id="BYz-b0-HBa"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g6T-PO-FDG" userLabel="Duas">
+                                        <rect key="frame" x="170.66666666666666" y="0.0" width="78" height="93"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ue-Hs-sPd">
+                                                <rect key="frame" x="-1" y="0.0" width="80" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="Duas"/>
+                                                <connections>
+                                                    <action selector="duasaction:" destination="h9N-lk-0NH" eventType="touchUpInside" id="jQl-kW-ow2"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eeh-9P-Qxk">
+                                                <rect key="frame" x="0.0" y="74" width="79" height="19"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="78" id="me2-ge-6H1"/>
+                                            <constraint firstAttribute="height" constant="93" id="nSm-F6-37i"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="249" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="ykS-tW-Kyt" userLabel="Directions">
+                                        <rect key="frame" x="256" y="0.0" width="78" height="93"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HPp-Sb-hfc">
+                                                <rect key="frame" x="-1" y="72" width="78" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ObF-Vu-MfC">
+                                                <rect key="frame" x="-1" y="0.0" width="80" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="Directions"/>
+                                                <connections>
+                                                    <action selector="directionsaction:" destination="h9N-lk-0NH" eventType="touchUpInside" id="Jod-b5-l4B"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="93" id="Pj6-gM-7Ky"/>
+                                            <constraint firstAttribute="width" constant="78" id="sXk-eT-1Rz"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puB-3c-Kj8" userLabel="Donate Button">
+                                <rect key="frame" x="30" y="403" width="330" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="330" id="s4a-it-738"/>
+                                    <constraint firstAttribute="height" constant="52" id="vZP-fa-Zhf"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Donate Button"/>
+                                <connections>
+                                    <action selector="donatelink:" destination="h9N-lk-0NH" eventType="touchUpInside" id="tyN-1o-8ig"/>
+                                </connections>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gHZ-7g-JZu">
+                                <rect key="frame" x="28" y="471" width="334" height="261"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="261" id="QEm-fn-UiQ"/>
+                                </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9Kn-jW-vOB">
-                                    <size key="itemSize" width="334" height="84"/>
+                                    <size key="itemSize" width="317" height="79"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="EventsIdentify" id="2sU-ln-B5u" customClass="EventsCollectionClass" customModule="IABAT" customModuleProvider="target">
-                                        <rect key="frame" x="4" y="0.0" width="334" height="84"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <rect key="frame" x="8.6666666666666661" y="0.0" width="317" height="79"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="2fZ-vk-680">
-                                            <rect key="frame" x="0.0" y="0.0" width="334" height="84"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="317" height="79"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03Q-XM-XSP" userLabel="eventstitle">
@@ -228,7 +389,7 @@
                                             </subviews>
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
-                                        <size key="customSize" width="334" height="84"/>
+                                        <size key="customSize" width="317" height="79"/>
                                         <connections>
                                             <outlet property="date" destination="7Du-bo-Etm" id="ZCt-jD-4Vk"/>
                                             <outlet property="events" destination="03Q-XM-XSP" id="WiC-aG-e1U"/>
@@ -240,121 +401,25 @@
                                     <outlet property="delegate" destination="h9N-lk-0NH" id="aDC-hB-9Ee"/>
                                 </connections>
                             </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puB-3c-Kj8">
-                                <rect key="frame" x="20" y="427" width="351" height="52"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="Donate Button"/>
-                                <connections>
-                                    <action selector="donatelink:" destination="h9N-lk-0NH" eventType="touchUpInside" id="tyN-1o-8ig"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pe0-kH-hzT">
-                                <rect key="frame" x="235" y="75" width="139" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
-                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
-                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="17"/>
-                                <state key="normal" title="Join Meeting">
-                                    <color key="titleColor" systemColor="labelColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="joinGoogleMeetAction:" destination="h9N-lk-0NH" eventType="touchUpInside" id="vha-Zc-Wa4"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IABAT_SQUARE" translatesAutoresizingMaskIntoConstraints="NO" id="LuW-Jk-LUf">
-                                <rect key="frame" x="16" y="44" width="87" height="87"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YP8-xp-W5E" userLabel="Quran">
-                                <rect key="frame" x="28" y="326" width="75" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quran" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jw-zd-9Hp">
-                                        <rect key="frame" x="15" y="73" width="44" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="15"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ea-og-1wr">
-                                        <rect key="frame" x="-3" y="0.0" width="80" height="80"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" backgroundImage="Quran"/>
-                                        <connections>
-                                            <action selector="quranAction:" destination="h9N-lk-0NH" eventType="touchUpInside" id="grp-Ed-LTB"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="18u-lb-EhZ" userLabel="Prayer Times">
-                                <rect key="frame" x="108" y="326" width="88" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYy-r3-Aw9">
-                                        <rect key="frame" x="4" y="0.0" width="80" height="80"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" backgroundImage="Image"/>
-                                        <connections>
-                                            <action selector="prayeraction:" destination="h9N-lk-0NH" eventType="touchUpInside" id="vLY-RN-9Yb"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prayer Times" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQp-9b-YLd">
-                                        <rect key="frame" x="-8" y="73" width="105" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="15"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g6T-PO-FDG" userLabel="Duas">
-                                <rect key="frame" x="204" y="326" width="75" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ue-Hs-sPd">
-                                        <rect key="frame" x="-3" y="0.0" width="80" height="80"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" backgroundImage="Duas"/>
-                                        <connections>
-                                            <action selector="duasaction:" destination="h9N-lk-0NH" eventType="touchUpInside" id="jQl-kW-ow2"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eeh-9P-Qxk">
-                                        <rect key="frame" x="19" y="73" width="36" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="15"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ykS-tW-Kyt" userLabel="Directions">
-                                <rect key="frame" x="287" y="326" width="75" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ObF-Vu-MfC">
-                                        <rect key="frame" x="-3" y="0.0" width="80" height="80"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" backgroundImage="Directions"/>
-                                        <connections>
-                                            <action selector="directionsaction:" destination="h9N-lk-0NH" eventType="touchUpInside" id="Jod-b5-l4B"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPp-Sb-hfc">
-                                        <rect key="frame" x="0.0" y="73" width="73" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="15"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sEU-ed-1uH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gHZ-7g-JZu" firstAttribute="leading" secondItem="sEU-ed-1uH" secondAttribute="leading" constant="28" id="35o-YO-3Sq"/>
+                            <constraint firstItem="GSr-Wx-tcb" firstAttribute="leading" secondItem="sEU-ed-1uH" secondAttribute="leading" constant="28" id="39w-Jw-4RK"/>
+                            <constraint firstItem="gHZ-7g-JZu" firstAttribute="top" secondItem="puB-3c-Kj8" secondAttribute="bottom" constant="16" id="725-ns-1Nb"/>
+                            <constraint firstItem="puB-3c-Kj8" firstAttribute="leading" secondItem="sEU-ed-1uH" secondAttribute="leading" constant="30" id="EZb-qk-UGt"/>
+                            <constraint firstItem="GSr-Wx-tcb" firstAttribute="top" secondItem="kfE-XE-HTm" secondAttribute="bottom" constant="18" id="RP7-ub-B1f"/>
+                            <constraint firstItem="kfE-XE-HTm" firstAttribute="leading" secondItem="sEU-ed-1uH" secondAttribute="leading" constant="30" id="TLh-I7-hc3"/>
+                            <constraint firstItem="puB-3c-Kj8" firstAttribute="top" secondItem="GSr-Wx-tcb" secondAttribute="bottom" constant="8" symbolic="YES" id="Xy5-I0-cN7"/>
+                            <constraint firstItem="kfE-XE-HTm" firstAttribute="top" secondItem="LuW-Jk-LUf" secondAttribute="bottom" constant="8" symbolic="YES" id="bL5-RB-dz7"/>
+                            <constraint firstItem="puB-3c-Kj8" firstAttribute="centerX" secondItem="dOR-88-GqQ" secondAttribute="centerX" id="ePl-pF-Uwb"/>
+                            <constraint firstItem="GSr-Wx-tcb" firstAttribute="centerX" secondItem="dOR-88-GqQ" secondAttribute="centerX" id="fbs-ps-24X"/>
+                            <constraint firstItem="LuW-Jk-LUf" firstAttribute="top" secondItem="sEU-ed-1uH" secondAttribute="top" id="g1J-Wn-0Ya"/>
+                            <constraint firstItem="gHZ-7g-JZu" firstAttribute="centerX" secondItem="dOR-88-GqQ" secondAttribute="centerX" id="wnW-hm-lPi"/>
+                            <constraint firstItem="LuW-Jk-LUf" firstAttribute="leading" secondItem="sEU-ed-1uH" secondAttribute="leading" constant="16" id="wqr-6A-UqL"/>
+                            <constraint firstItem="sEU-ed-1uH" firstAttribute="trailing" secondItem="kfE-XE-HTm" secondAttribute="trailing" constant="30" id="x9h-zt-Njo"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="EventsCollection" destination="gHZ-7g-JZu" id="AVE-96-VBY"/>
@@ -363,50 +428,172 @@
                         <outlet property="nextprayername" destination="EPL-AE-mSp" id="9gn-gi-TGA"/>
                         <outlet property="nextprayertime" destination="FUs-7B-2xL" id="4lC-OL-AsF"/>
                         <outlet property="prayersimage" destination="gMh-sv-FQJ" id="LpE-nz-Xgt"/>
+                        <segue destination="hEx-3t-5Ac" kind="show" identifier="eventdetailed" id="UzV-8n-riw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q4l-Gr-CbY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-35.384615384615387" y="-1574.6445497630332"/>
+            <point key="canvasLocation" x="-36.92307692307692" y="-1575.3554502369668"/>
         </scene>
-        <!--View Controller-->
+        <!--Prayer Times-->
         <scene sceneID="etC-yy-LvB">
             <objects>
-                <viewController id="Wwu-9B-95L" sceneMemberID="viewController">
+                <viewController id="Wwu-9B-95L" customClass="PrayerTimes3ViewController" customModule="IABAT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7dd-3R-FPb">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prayer Times" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49z-Bc-7Ay">
-                                <rect key="frame" x="114" y="44" width="163" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="DMSans-Bold" family="DM Sans" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JLb-T6-xsW">
+                                <rect key="frame" x="16" y="138" width="358" height="190"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ynm-3R-d3s">
+                                        <rect key="frame" x="20" y="20" width="73.333333333333329" height="150"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" ambiguous="YES" text="Fajr:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UBs-xO-X70">
+                                                <rect key="frame" x="0.0" y="0.0" width="73.333333333333329" height="23.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="18"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" ambiguous="YES" text="Dhuhr:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auX-Tn-AbB">
+                                                <rect key="frame" x="0.0" y="33.666666666666657" width="73.333333333333329" height="23.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="18"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" ambiguous="YES" text="Asr:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YxP-5M-IcU">
+                                                <rect key="frame" x="0.0" y="67.333333333333343" width="73.333333333333329" height="23.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="18"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" ambiguous="YES" text="Maghrib:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNa-uI-hmi">
+                                                <rect key="frame" x="0.0" y="101" width="73.333333333333329" height="23.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="18"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" ambiguous="YES" text="Isha:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZ3-Co-Zrm">
+                                                <rect key="frame" x="0.0" y="134.66666666666669" width="73.333333333333329" height="15.333333333333343"/>
+                                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="18"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="auX-Tn-AbB" firstAttribute="leading" secondItem="ynm-3R-d3s" secondAttribute="leading" id="JLM-WR-BTU"/>
+                                            <constraint firstAttribute="trailing" secondItem="YxP-5M-IcU" secondAttribute="trailing" id="QYa-7P-n0F"/>
+                                            <constraint firstAttribute="trailing" secondItem="UBs-xO-X70" secondAttribute="trailing" id="TGm-dV-ivu"/>
+                                            <constraint firstAttribute="trailing" secondItem="xZ3-Co-Zrm" secondAttribute="trailing" id="ZLy-rO-wTt"/>
+                                            <constraint firstItem="UBs-xO-X70" firstAttribute="leading" secondItem="ynm-3R-d3s" secondAttribute="leading" id="k5v-Ev-guw"/>
+                                            <constraint firstAttribute="trailing" secondItem="auX-Tn-AbB" secondAttribute="trailing" id="moM-PP-IGu"/>
+                                            <constraint firstItem="YxP-5M-IcU" firstAttribute="leading" secondItem="ynm-3R-d3s" secondAttribute="leading" id="pdr-fN-IoK"/>
+                                            <constraint firstAttribute="height" constant="150" id="vqS-Cl-ns8"/>
+                                            <constraint firstItem="xZ3-Co-Zrm" firstAttribute="leading" secondItem="ynm-3R-d3s" secondAttribute="leading" id="yYN-8W-k5C"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="ynm-3R-d3s" firstAttribute="centerY" secondItem="JLb-T6-xsW" secondAttribute="centerY" id="4At-92-nXl"/>
+                                    <constraint firstItem="ynm-3R-d3s" firstAttribute="leading" secondItem="JLb-T6-xsW" secondAttribute="leading" constant="20" id="FMd-Aw-vDs"/>
+                                    <constraint firstAttribute="height" constant="190" id="YxR-B7-PoQ"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Kmn-iY-25O"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JLb-T6-xsW" firstAttribute="leading" secondItem="Kmn-iY-25O" secondAttribute="leading" constant="16" id="fep-Pj-Auc"/>
+                            <constraint firstItem="JLb-T6-xsW" firstAttribute="centerX" secondItem="7dd-3R-FPb" secondAttribute="centerX" id="gt4-gu-JVh"/>
+                            <constraint firstItem="Kmn-iY-25O" firstAttribute="trailing" secondItem="JLb-T6-xsW" secondAttribute="trailing" constant="16" id="v9g-5l-3mG"/>
+                            <constraint firstItem="JLb-T6-xsW" firstAttribute="top" secondItem="Kmn-iY-25O" secondAttribute="top" constant="30" id="vJL-4b-nqA"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Prayer Times" id="a9c-ch-Q83"/>
+                    <connections>
+                        <outlet property="asrtimes" destination="YxP-5M-IcU" id="aRK-lK-Fjw"/>
+                        <outlet property="dhuhrtimes" destination="auX-Tn-AbB" id="aIf-km-6uy"/>
+                        <outlet property="fajrtimes" destination="UBs-xO-X70" id="EB8-rf-rFQ"/>
+                        <outlet property="ishatimes" destination="xZ3-Co-Zrm" id="b98-uy-BNW"/>
+                        <outlet property="maghribtimes" destination="aNa-uI-hmi" id="pYL-aE-iuM"/>
+                        <outlet property="prayerblock" destination="JLb-T6-xsW" id="r48-t7-fCl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XUF-ch-AXS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="709" y="-1564"/>
+            <point key="canvasLocation" x="1596.9230769230769" y="-1575.3554502369668"/>
         </scene>
         <!--Detail View Controller3-->
         <scene sceneID="YR5-Kp-wIX">
             <objects>
                 <viewController id="hEx-3t-5Ac" customClass="DetailViewController3" customModule="IABAT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HFJ-Mt-PFI">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="Mk7-HQ-eKh">
+                                <rect key="frame" x="16" y="60" width="358" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="A96-BC-rbd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DMSans-Bold" family="DM Sans" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3M2-MO-fey">
+                                <rect key="frame" x="16" y="683" width="358" height="57"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="78p-89-fZy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="22"/>
+                                <state key="normal" title="Join Meeting">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="joinmeetings:" destination="hEx-3t-5Ac" eventType="touchUpInside" id="Eyt-j2-0XT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="xbo-5I-7wd">
+                                <rect key="frame" x="16" y="205" width="358" height="28.666666666666657"/>
+                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dba-DO-47B">
+                                <rect key="frame" x="16" y="168" width="358" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="wae-XU-hui"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DMSans-Medium" family="DM Sans" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="4gi-LD-i47"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4gi-LD-i47" firstAttribute="trailing" secondItem="Dba-DO-47B" secondAttribute="trailing" constant="16" id="03L-hK-fyC"/>
+                            <constraint firstItem="xbo-5I-7wd" firstAttribute="top" secondItem="Dba-DO-47B" secondAttribute="bottom" constant="8" id="9Ae-z5-9R9"/>
+                            <constraint firstItem="xbo-5I-7wd" firstAttribute="leading" secondItem="4gi-LD-i47" secondAttribute="leading" constant="16" id="9u2-FS-45U"/>
+                            <constraint firstItem="4gi-LD-i47" firstAttribute="trailing" secondItem="3M2-MO-fey" secondAttribute="trailing" constant="16" id="9xR-gE-s3a"/>
+                            <constraint firstItem="3M2-MO-fey" firstAttribute="leading" secondItem="4gi-LD-i47" secondAttribute="leading" constant="16" id="Ax5-bR-ar1"/>
+                            <constraint firstItem="4gi-LD-i47" firstAttribute="trailing" secondItem="xbo-5I-7wd" secondAttribute="trailing" constant="16" id="DQf-y3-cDB"/>
+                            <constraint firstItem="Mk7-HQ-eKh" firstAttribute="leading" secondItem="4gi-LD-i47" secondAttribute="leading" constant="16" id="isr-hY-c4L"/>
+                            <constraint firstItem="Dba-DO-47B" firstAttribute="top" secondItem="Mk7-HQ-eKh" secondAttribute="bottom" constant="8" id="jJR-dL-Cf5"/>
+                            <constraint firstItem="Mk7-HQ-eKh" firstAttribute="top" secondItem="4gi-LD-i47" secondAttribute="top" constant="60" id="kdx-k5-cYf"/>
+                            <constraint firstItem="4gi-LD-i47" firstAttribute="bottom" secondItem="3M2-MO-fey" secondAttribute="bottom" constant="16" id="nS7-2V-bff"/>
+                            <constraint firstItem="Dba-DO-47B" firstAttribute="leading" secondItem="4gi-LD-i47" secondAttribute="leading" constant="16" id="oaY-kE-J7y"/>
+                            <constraint firstItem="4gi-LD-i47" firstAttribute="trailing" secondItem="Mk7-HQ-eKh" secondAttribute="trailing" constant="16" id="zpW-4w-u8b"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="QN9-YF-4uu"/>
+                    <connections>
+                        <outlet property="detaildescription" destination="xbo-5I-7wd" id="0g0-og-s9U"/>
+                        <outlet property="eventitle" destination="Mk7-HQ-eKh" id="XLD-ma-15g"/>
+                        <outlet property="joinzoom" destination="3M2-MO-fey" id="ScE-5M-n0Q"/>
+                        <outlet property="timetext" destination="Dba-DO-47B" id="jDi-uM-xQC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="95H-X5-HGw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1520" y="-1575"/>
+            <point key="canvasLocation" x="829.23076923076917" y="-2264.2180094786727"/>
         </scene>
         <!--IABAT-->
         <scene sceneID="rQJ-BD-a2B">
@@ -682,7 +869,7 @@
                         </navigationBar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="69" id="dUL-wb-xHa">
-                                <rect key="frame" x="0.0" y="125" width="390" height="69"/>
+                                <rect key="frame" x="0.0" y="141.66666603088379" width="390" height="69"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dUL-wb-xHa" id="eiV-aM-eq3">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="69"/>
@@ -721,7 +908,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2L-yE-KHN">
-                                <rect key="frame" x="8" y="43" width="374" height="517"/>
+                                <rect key="frame" x="8" y="77" width="374" height="517"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="517" id="gWG-Ei-JoC"/>
                                 </constraints>
@@ -740,7 +927,7 @@
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="January 14th. 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qX-dw-fUo">
-                                <rect key="frame" x="20" y="568" width="350" height="49"/>
+                                <rect key="frame" x="20" y="602" width="350" height="49"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="kPf-ms-UGy"/>
                                 </constraints>
@@ -749,7 +936,7 @@
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGj-hK-sgm">
-                                <rect key="frame" x="45" y="624" width="134" height="35"/>
+                                <rect key="frame" x="45" y="658" width="134" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="t3h-D2-SfZ"/>
                                 </constraints>
@@ -758,7 +945,7 @@
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5:00 AM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWI-3a-z2j">
-                                <rect key="frame" x="8" y="657" width="153.66666666666666" height="50"/>
+                                <rect key="frame" x="8" y="691" width="153.66666666666666" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Vml-1n-Ueb"/>
                                 </constraints>
@@ -767,7 +954,7 @@
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ho6-mG-tIw">
-                                <rect key="frame" x="213.66666666666666" y="624" width="122.33333333333334" height="35"/>
+                                <rect key="frame" x="213.66666666666666" y="658" width="122.33333333333334" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="OSN-W7-6uZ"/>
                                 </constraints>
@@ -776,7 +963,7 @@
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5:00 PM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUK-9j-11K">
-                                <rect key="frame" x="228.66666666666663" y="657" width="153.33333333333337" height="50"/>
+                                <rect key="frame" x="228.66666666666663" y="691" width="153.33333333333337" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Zhl-pu-EEk"/>
                                 </constraints>
@@ -1705,7 +1892,7 @@
                         </navigationBar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="aNt-ZL-Oep">
-                                <rect key="frame" x="0.0" y="124" width="390" height="43.666667938232422"/>
+                                <rect key="frame" x="0.0" y="140.66666603088379" width="390" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aNt-ZL-Oep" id="GEi-em-l9m">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
@@ -1913,11 +2100,30 @@
             </objects>
             <point key="canvasLocation" x="425" y="1434"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="75F-z3-4fa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FPd-WB-LZp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="00l-h2-RES"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="HJs-Py-bwb">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="108"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Wwu-9B-95L" kind="relationship" relationship="rootViewController" id="Z8o-4j-nxX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wuN-I3-UAD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="667.69230769230762" y="-1575.3554502369668"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Yxb-RF-ipK"/>
+        <segue reference="fmP-Wm-bkF"/>
         <segue reference="Zs8-8y-Pqq"/>
-        <segue reference="J9e-ea-nOb"/>
+        <segue reference="KET-tQ-aLU"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Blue-Gradient-Back" width="567" height="536"/>

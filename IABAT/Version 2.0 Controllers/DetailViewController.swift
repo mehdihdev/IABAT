@@ -18,25 +18,13 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var eventtime: UILabel!
     @IBOutlet weak var eventdescript: UILabel!
     
-    
-  
-    
-    
-    
-   
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
         let event = selectedEvent?.name
         eventtitle.text = selectedEvent?.name
         eventtime.text = selectedEvent?.date
         eventdescript.text = selectedEvent?.descript
     }
-    
-    
     
     
       @IBAction func joinzooms(_ sender: Any) {

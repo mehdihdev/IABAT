@@ -9,22 +9,31 @@
 import UIKit
 
 class DetailViewController3: UIViewController {
-
+    var eventsdetailtitle: String?
+    var selectedtimes: String?
+    var selectedDescription: String?
+    @IBOutlet weak var timetext: UILabel!
+    @IBOutlet weak var eventitle: UILabel!
+    @IBOutlet weak var joinzoom: UIButton!
+    @IBOutlet weak var detaildescription: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let formatter = DateFormatter()
+        let newformatter = DateFormatter()
+        formatter.locale = Locale.init(identifier: "en")
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        newformatter.dateFormat = "MM-dd-yyyy hh:mm a"
+        let date = formatter.date(from: selectedtimes!)!
+        let newdate = newformatter.string(from: date)
+        eventitle.text = eventsdetailtitle
+        timetext.text = "Time: \(newdate)"
+        detaildescription.text = selectedDescription
+        joinzoom.layer.cornerRadius = 14
+    }
+    @IBAction func joinmeetings(_ sender: Any) {
+        guard let url = URL(string: "https://meet.iabat.org") else { return }
+        UIApplication.shared.open(url)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

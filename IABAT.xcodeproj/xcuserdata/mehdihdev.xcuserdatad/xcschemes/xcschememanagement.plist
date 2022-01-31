@@ -7,7 +7,45 @@
 		<key>IABAT.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>0</integer>
+		</dict>
+		<key>Next PrayerExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3B00165A22C579A200A52D89</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B00166E22C579A600A52D89</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B00167922C579A600A52D89</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6A9881212650B26500A431B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6A9881372650B49200A431B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6A98814D2650B4D700A431B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

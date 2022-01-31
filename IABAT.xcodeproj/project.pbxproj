@@ -39,6 +39,13 @@
 		6A0D82BB25D6F4B00087EE53 /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A0D82B825D6F4B00087EE53 /* DMSans-Regular.ttf */; };
 		6A0D82BC25D6F4B00087EE53 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A0D82B925D6F4B00087EE53 /* DMSans-Bold.ttf */; };
 		6A44FF4E25DD5AB800A8DAE9 /* DetailViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A44FF4D25DD5AB800A8DAE9 /* DetailViewController3.swift */; };
+		6A525688260FA487008FF09F /* PrayerTimes3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A525687260FA487008FF09F /* PrayerTimes3ViewController.swift */; };
+		6A9881682650B6B300A431B1 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9881232650B26500A431B1 /* WidgetKit.framework */; };
+		6A9881692650B6B300A431B1 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9881252650B26500A431B1 /* SwiftUI.framework */; };
+		6A98816C2650B6B300A431B1 /* Next_Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A98816B2650B6B300A431B1 /* Next_Prayer.swift */; };
+		6A98816E2650B6B400A431B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A98816D2650B6B400A431B1 /* Assets.xcassets */; };
+		6A9881722650B6B400A431B1 /* Next PrayerExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6A9881672650B6B300A431B1 /* Next PrayerExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6A9881762650B6C500A431B1 /* Next_Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A98816B2650B6B300A431B1 /* Next_Prayer.swift */; };
 		6AB3410A25DC462C00A03C80 /* EventsCollectionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB3410925DC462C00A03C80 /* EventsCollectionClass.swift */; };
 		6C3EFB06F4E6C5FA256F6D0B /* Pods_IABAT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B0D094785E3ACCC2C60471 /* Pods_IABAT.framework */; };
 		8FFDDD5AACEA7A9CFA16B354 /* Pods_IABATUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDE1E500377AE7EDC35C250 /* Pods_IABATUITests.framework */; };
@@ -60,7 +67,28 @@
 			remoteGlobalIDString = 3B00165A22C579A200A52D89;
 			remoteInfo = IABAT;
 		};
+		6A9881702650B6B400A431B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B00165322C579A100A52D89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A9881662650B6B300A431B1;
+			remoteInfo = "Next PrayerExtension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6A9881302650B26700A431B1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6A9881722650B6B400A431B1 /* Next PrayerExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		18C5DF4F8E2CC4C57B486A0B /* Pods-IABAT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IABAT.debug.xcconfig"; path = "Target Support Files/Pods-IABAT/Pods-IABAT.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +139,13 @@
 		6A0D82B825D6F4B00087EE53 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Regular.ttf"; sourceTree = "<group>"; };
 		6A0D82B925D6F4B00087EE53 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Bold.ttf"; sourceTree = "<group>"; };
 		6A44FF4D25DD5AB800A8DAE9 /* DetailViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController3.swift; sourceTree = "<group>"; };
+		6A525687260FA487008FF09F /* PrayerTimes3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimes3ViewController.swift; sourceTree = "<group>"; };
+		6A9881232650B26500A431B1 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6A9881252650B26500A431B1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6A9881672650B6B300A431B1 /* Next PrayerExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Next PrayerExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A98816B2650B6B300A431B1 /* Next_Prayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Next_Prayer.swift; sourceTree = "<group>"; };
+		6A98816D2650B6B400A431B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A98816F2650B6B400A431B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AB3410925DC462C00A03C80 /* EventsCollectionClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCollectionClass.swift; sourceTree = "<group>"; };
 		74D29490BC6460A4A2912FD2 /* Pods_IABATTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IABATTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88866815E49880B7AB7FF8E5 /* Pods-IABAT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IABAT.release.xcconfig"; path = "Target Support Files/Pods-IABAT/Pods-IABAT.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +177,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6A9881642650B6B300A431B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9881692650B6B300A431B1 /* SwiftUI.framework in Frameworks */,
+				6A9881682650B6B300A431B1 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -151,6 +195,7 @@
 				3B00165D22C579A200A52D89 /* IABAT */,
 				3B00167222C579A600A52D89 /* IABATTests */,
 				3B00167D22C579A600A52D89 /* IABATUITests */,
+				6A98816A2650B6B300A431B1 /* Next Prayer */,
 				3B00165C22C579A200A52D89 /* Products */,
 				62262764EF8B76D29B8168C8 /* Pods */,
 				B1F3CA0E7B5162BB3B60FB76 /* Frameworks */,
@@ -163,6 +208,7 @@
 				3B00165B22C579A200A52D89 /* IABAT.app */,
 				3B00166F22C579A600A52D89 /* IABATTests.xctest */,
 				3B00167A22C579A600A52D89 /* IABATUITests.xctest */,
+				6A9881672650B6B300A431B1 /* Next PrayerExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -237,6 +283,7 @@
 				6AB3410925DC462C00A03C80 /* EventsCollectionClass.swift */,
 				4914F806245E53EA002748D5 /* HomeViewController3.swift */,
 				4914F80D245E5C1B002748D5 /* CustomCell.swift */,
+				6A525687260FA487008FF09F /* PrayerTimes3ViewController.swift */,
 			);
 			name = "Version 3.0 Controllers";
 			path = "../Version 3.0 Controllers";
@@ -282,12 +329,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		6A98816A2650B6B300A431B1 /* Next Prayer */ = {
+			isa = PBXGroup;
+			children = (
+				6A98816B2650B6B300A431B1 /* Next_Prayer.swift */,
+				6A98816D2650B6B400A431B1 /* Assets.xcassets */,
+				6A98816F2650B6B400A431B1 /* Info.plist */,
+			);
+			path = "Next Prayer";
+			sourceTree = "<group>";
+		};
 		B1F3CA0E7B5162BB3B60FB76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				23B0D094785E3ACCC2C60471 /* Pods_IABAT.framework */,
 				74D29490BC6460A4A2912FD2 /* Pods_IABATTests.framework */,
 				CCDE1E500377AE7EDC35C250 /* Pods_IABATUITests.framework */,
+				6A9881232650B26500A431B1 /* WidgetKit.framework */,
+				6A9881252650B26500A431B1 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -304,10 +363,12 @@
 				3B00165822C579A200A52D89 /* Frameworks */,
 				3B00165922C579A200A52D89 /* Resources */,
 				8FE5BD4E47C3272D994356B0 /* [CP] Embed Pods Frameworks */,
+				6A9881302650B26700A431B1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6A9881712650B6B400A431B1 /* PBXTargetDependency */,
 			);
 			name = IABAT;
 			productName = IABAT;
@@ -352,14 +413,32 @@
 			productReference = 3B00167A22C579A600A52D89 /* IABATUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		6A9881662650B6B300A431B1 /* Next PrayerExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A9881732650B6B400A431B1 /* Build configuration list for PBXNativeTarget "Next PrayerExtension" */;
+			buildPhases = (
+				6A9881632650B6B300A431B1 /* Sources */,
+				6A9881642650B6B300A431B1 /* Frameworks */,
+				6A9881652650B6B300A431B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Next PrayerExtension";
+			productName = "Next PrayerExtension";
+			productReference = 6A9881672650B6B300A431B1 /* Next PrayerExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3B00165322C579A100A52D89 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				DefaultBuildSystemTypeForWorkspace = Latest;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = IABAT;
 				TargetAttributes = {
 					3B00165A22C579A200A52D89 = {
@@ -377,6 +456,9 @@
 					3B00167922C579A600A52D89 = {
 						CreatedOnToolsVersion = 10.2.1;
 						TestTargetID = 3B00165A22C579A200A52D89;
+					};
+					6A9881662650B6B300A431B1 = {
+						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
@@ -396,6 +478,7 @@
 				3B00165A22C579A200A52D89 /* IABAT */,
 				3B00166E22C579A600A52D89 /* IABATTests */,
 				3B00167922C579A600A52D89 /* IABATUITests */,
+				6A9881662650B6B300A431B1 /* Next PrayerExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -426,6 +509,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A9881652650B6B300A431B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A98816E2650B6B400A431B1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,6 +622,7 @@
 				4914F807245E53EA002748D5 /* HomeViewController3.swift in Sources */,
 				3B1F821D22CD2DD00059C5C0 /* RegisterViewController.swift in Sources */,
 				3B39D9F822D57B7900AEAA5E /* PrayersViewController.swift in Sources */,
+				6A9881762650B6C500A431B1 /* Next_Prayer.swift in Sources */,
 				3B00166122C579A200A52D89 /* ViewController.swift in Sources */,
 				3B0BC5B622DA3507004AA2EC /* ProfileViewController.swift in Sources */,
 				3B00165F22C579A200A52D89 /* AppDelegate.swift in Sources */,
@@ -542,6 +634,7 @@
 				3BE97C4722D3B18E00DF22D5 /* EventsTableViewController.swift in Sources */,
 				49ABEDCA232D892600E3F719 /* DetailViewController.swift in Sources */,
 				6A44FF4E25DD5AB800A8DAE9 /* DetailViewController3.swift in Sources */,
+				6A525688260FA487008FF09F /* PrayerTimes3ViewController.swift in Sources */,
 				49DE340223341E34008A4107 /* PrayerViewController.swift in Sources */,
 				49CE514C22FE5DB900E05A95 /* HomeViewController.swift in Sources */,
 				49B8AA742441049E008B2330 /* ServicesViewController.swift in Sources */,
@@ -565,6 +658,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6A9881632650B6B300A431B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A98816C2650B6B300A431B1 /* Next_Prayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -577,6 +678,11 @@
 			isa = PBXTargetDependency;
 			target = 3B00165A22C579A200A52D89 /* IABAT */;
 			targetProxy = 3B00167B22C579A600A52D89 /* PBXContainerItemProxy */;
+		};
+		6A9881712650B6B400A431B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A9881662650B6B300A431B1 /* Next PrayerExtension */;
+			targetProxy = 6A9881702650B6B400A431B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -626,6 +732,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -687,6 +794,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -720,19 +828,103 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18C5DF4F8E2CC4C57B486A0B /* Pods-IABAT.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = IABAT/IABAT.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X4MH4CHK56;
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = IABAT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.9;
+				MARKETING_VERSION = 3.2;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Adhan\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"EasyAnimation\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"Lottie\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"QuranSDK\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ISLAMICAHLULBAYT.iabat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -745,19 +937,103 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88866815E49880B7AB7FF8E5 /* Pods-IABAT.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = IABAT/IABAT.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X4MH4CHK56;
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = IABAT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.9;
+				MARKETING_VERSION = 3.2;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Adhan\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"EasyAnimation\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"Lottie\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"QuranSDK\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ISLAMICAHLULBAYT.iabat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -848,6 +1124,52 @@
 			};
 			name = Release;
 		};
+		6A9881742650B6B400A431B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4MH4CHK56;
+				INFOPLIST_FILE = "Next Prayer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ISLAMICAHLULBAYT.iabat.Next-Prayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A9881752650B6B400A431B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4MH4CHK56;
+				INFOPLIST_FILE = "Next Prayer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ISLAMICAHLULBAYT.iabat.Next-Prayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -883,6 +1205,15 @@
 			buildConfigurations = (
 				3B00168A22C579A600A52D89 /* Debug */,
 				3B00168B22C579A600A52D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A9881732650B6B400A431B1 /* Build configuration list for PBXNativeTarget "Next PrayerExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A9881742650B6B400A431B1 /* Debug */,
+				6A9881752650B6B400A431B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -12,7 +12,7 @@ import Adhan
 
 
 let reuseIdentifier = "EventsIdentify";
-let apiUrl = URL(string: "https://new.iabat.org/wp-json/tribe/events/v1/events?per_page=3&page=1")
+let apiUrl = URL(string: "https://new.iabat.org/wp-json/tribe/events/v1/events")
 let dateFormatterGet = DateFormatter()
 let dateFormatterPrint = DateFormatter()
 
@@ -25,6 +25,11 @@ class HomeViewController3: UIViewController, UICollectionViewDataSource, UIColle
     @IBOutlet weak var EventsCollection: UICollectionView!
     @IBOutlet weak var hijridate: UILabel!
     @IBOutlet weak var joinGoogleMeet: UIButton!
+    var selectedEvents: String?
+    var selectedEventstime: String?
+    var selectedEventsdescription: String!
+    var dayComponent    = DateComponents()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +41,11 @@ class HomeViewController3: UIViewController, UICollectionViewDataSource, UIColle
         NewFormat.locale = Locale.init(identifier: "en")
         NewFormat.calendar = newhijri
         NewFormat.dateFormat = "LLLL dd, YYYY"
-        hijridate.text = "\(NewFormat.string(from: Date()))"
+        
+        dayComponent.day = -1 // For removing one day (yesterday): -1
+        let theCalendar = newhijri
+        let nextDate = theCalendar.date(byAdding: dayComponent, to: Date())
+        hijridate.text = "\(NewFormat.string(from: nextDate!))"
         loadData()
         getLocation()
     }
@@ -83,7 +92,7 @@ class HomeViewController3: UIViewController, UICollectionViewDataSource, UIColle
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
            guard let locValue: CLLocationCoordinate2D = manager.location?.coordinate else { return }
-           print("locations = \(locValue.latitude) \(locValue.longitude)")
+//           print("locations = \(locValue.latitude) \(locValue.longitude)")
            let cal = Calendar(identifier: Calendar.Identifier.gregorian)
            let date = cal.dateComponents([.year, .month, .day], from: Date())
            let coordinates = Coordinates(latitude: locValue.latitude, longitude: locValue.longitude)
@@ -134,7 +143,7 @@ class HomeViewController3: UIViewController, UICollectionViewDataSource, UIColle
         // Dispose of any resources that can be recreated.
     }
     @IBAction func donatelink(_ sender: Any) {
-        guard let url = URL(string: "https://new.iabat.org/donate") else { return }
+        guard let url = URL(string: "https://iabat.org/index.php?option=com_content&view=article&id=25&Itemid=170") else { return }
         UIApplication.shared.open(url)
     }
     @IBAction func quranAction(_ sender: Any) {
@@ -149,7 +158,7 @@ class HomeViewController3: UIViewController, UICollectionViewDataSource, UIColle
         UIApplication.shared.open(url)
     }
     @IBAction func directionsaction(_ sender: Any) {
-        let directionsURL = "https://maps.apple.com/?daddr=(35.928880,%20-78.813672)&dirflg=d&saddr=(Current%20Location)"
+        let directionsURL = "https://maps.apple.com/?daddr=(35.939480,%20-78.841590)&dirflg=d&saddr=(Current%20Location)"
         print(directionsURL)
         guard let url = URL(string: directionsURL) else {
             return
@@ -178,14 +187,16 @@ class HomeViewController3: UIViewController, UICollectionViewDataSource, UIColle
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = EventsCollection.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! EventsCollectionClass
         let row = events[indexPath.row]
+        
         if let title = row["title"] as? String {
             print(title)
+            selectedEvents = title
             cell.events.text = title
         }
         
         if let date = row["start_date"] as? String {
             if let dated = dateFormatterGet.date(from: date) {
-
+                selectedEventstime = date
                 cell.date.text = dateFormatterPrint.string(from: dated)
             } else {
                 cell.date.text = "No Date"
@@ -194,21 +205,40 @@ class HomeViewController3: UIViewController, UICollectionViewDataSource, UIColle
             if (dateFormatterGet.date(from: date)?.timeIntervalSinceNow.sign == .minus) {
 //                cell.contentView.isHidden = true
 //                cell.backgroundColor = self.EventsCollection.backgroundColor
-                self.events.remove(at: indexPath.row)
-                EventsCollection.deleteItems(at: [indexPath])
+                do {
+
+                DispatchQueue.main.async {
+                    self.events.remove(at: indexPath.row)
+                    self.EventsCollection.deleteItems(at: [indexPath])
+                    self.EventsCollection.reloadItems(at: [indexPath])
+                    self.EventsCollection.reloadData()
+                }
+                    
+                } catch {
+                print("Cannot get Events")
+                }
+                //self.events.remove(at: indexPath.row)
+                
+
             }
             
         }
-        
+        if let descriptions = row["description"] as? String {
+            //print(descriptions)
+            selectedEventsdescription = descriptions
+            print(selectedEventsdescription)
+        }
         
         
         cell.layer.cornerRadius = 15
         return cell
     }
     
+    
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if (self.events.count == 0) {
-            self.EventsCollection.setEmptyMessage("Nothing to show :(")
+            self.EventsCollection.setEmptyMessage("No Events happening right now.")
         } else {
             self.EventsCollection.restore()
         }
@@ -252,14 +282,18 @@ class HomeViewController3: UIViewController, UICollectionViewDataSource, UIColle
     }
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        //self.performSegue(withIdentifier: "eventsdetail", sender: self)
+        self.performSegue(withIdentifier: "eventdetailed", sender: self)
     }
-    /*override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get reference to the destination view controller
         let detailVC  = segue.destination as? DetailViewController3
-        detailVC.eventdetailtitle = selectedEvents
-    }*/
+        print(selectedEventsdescription)
+        detailVC?.eventsdetailtitle = selectedEvents
+        detailVC?.selectedtimes = selectedEventstime
+        detailVC?.selectedDescription = selectedEventsdescription
+    }
 }
+
 
 extension UICollectionView {
 
